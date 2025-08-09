@@ -31,7 +31,9 @@ body {
     font-weight: 700;
     text-align: center;
     margin: 0 2em;
+    padding: 1em;
 }
+.line::after, 
 .opening::after {
     content: "";
     display: block;
@@ -133,4 +135,3 @@ p {
     position:relative;
     z-index: 0.2;
 }
-
