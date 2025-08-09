@@ -1,134 +1,135 @@
 @media (max-width: 768px) {
-            .opening { font-size: 2rem; }
-            ul li { width: 80%; margin: 1em auto; }
-            .closing-container { width: 90%; }
-        }
-        body {
-            margin: 20px auto;
-            /* background-color: #e6e0ae; */
-            background-color: #b8c5ce;
-            font-family: "LXGW WenKai Mono TC";
-        }
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        ::-webkit-scrollbar-track {
-            background-color: #69747c;
-        }
-        ::-webkit-scrollbar-thumb {
-            border-radius: .2rem;
-            background-color: #545454;
-        }
-        .container {
-            display: grid;
-            justify-content: center;
-            align-items: center;
-            padding: 3%;
-            text-align: center;
-        }
-        .opening {
-            font-size: 50px;
-            font-weight: 700;
-            text-align: center;
-        }
-        .opening::after {
-            content: "";
-            display: block;
-            width: 300px;
-            height: 3px;
-            background: #69747c;
-            margin: 20px auto;
-        }
-        ul,li {
-            list-style: none;
-        }
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        ul li {
-            color: #000;
-            background: #e6e0ae;
-            display: block;
-            height: 15.5em;
-            width: 15.5em;
-            padding: 2em;
-            margin: 2em;
-            box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-            transition: transform .15s linear;
-        }
-        ul li {
-            transform: rotate(-6deg);
-        }
-        ul li img {
-            transition: transform 0.15s ease;
-            border-radius: 4px;
-        }
-        ul li:hover img {
-            transform: scale(1.1);
-        }
-        ul li:nth-child(even) {
-            transform: rotate(4deg);
-            position: relative;
-            top: 5px;
-            background: #f0544f;
-        }
-        ul li:nth-child(3n) {
-            transform: rotate(-3deg);
-            position: relative;
-            top: -5px;
-        }
-        ul li:nth-child(5n) {
-            transform: rotate(3deg);
-            position: relative;
-            top: -10px;
-            background: #e07a5f;
-        }
-        ul li:hover {
-            box-shadow:10px 10px 7px rgba(0,0,0,.7);
-            transform: scale(1.25);
-            position:relative;
-            z-index:5;
-        }
-        h2 {
-            font-size: 1.1rem;
-        }
-        p {
-            font-size: 1rem;
-            font-weight: normal;
-        }
-        .keterangan {
-            font-size: 0.9rem;
-            font-weight: normal;
-            color: rgb(77, 76, 76);
-            padding: 0;
-            margin: 1em auto;
-        }
-        .closing-container {
-            width: 60%;
-            position: relative;
-            margin: 2rem auto;
-            padding: 2em;
-            background-color: #f8f0cb;
-            box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
-            transform: rotate(1deg);
-            position: relative;
-            transition: transform .15s linear;
-        }
-        .pesan {
-            font-size: 1.3rem;
-        }
-        .closing {
-            font-size: 1.2rem;
-        }
-        .closing-container::before {
-            content: "❤";
-            margin-right: 8px;
-        }
-        .closing-container:hover {
-            box-shadow:10px 10px 7px rgba(0,0,0,.7);
-            transform: scale(1.05);
-            position:relative;
-            z-index: 0.2;
-        }
+    .opening { font-size: 2rem; }
+    ul li { width: 80%; margin: 1em auto; }
+    .closing-container { width: 90%; }
+}
+body {
+    margin: 20px auto;
+    /* background-color: #e6e0ae; */
+    background-color: #b8c5ce;
+    font-family: "LXGW WenKai Mono TC";
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #69747c;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: .2rem;
+    background-color: #545454;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    text-align: center;
+}
+.opening {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 3em;
+}
+.opening::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #69747c;
+    margin: 20px auto;
+}
+ul,li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li {
+    color: #000;
+    background: #e6e0ae;
+    display: block;
+    height: 15.5em;
+    width: 15.5em;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transition: transform .15s linear;
+}
+ul li {
+    transform: rotate(-6deg);
+}
+ul li img {
+    transition: transform 0.15s ease;
+    border-radius: 4px;
+}
+ul li:hover img {
+    transform: scale(1.1);
+}
+ul li:nth-child(even) {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: #f0544f;
+}
+ul li:nth-child(3n) {
+    transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+}
+ul li:nth-child(5n) {
+    transform: rotate(3deg);
+    position: relative;
+    top: -10px;
+    background: #e07a5f;
+}
+ul li:hover {
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+h2 {
+    font-size: 1.1rem;
+}
+p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.keterangan {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: rgb(77, 76, 76);
+    padding: 0;
+    margin: 1em auto;
+}
+.closing-container {
+    width: 60%;
+    position: relative;
+    margin: 2rem auto;
+    padding: 2em;
+    background-color: #f8f0cb;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    transform: rotate(1deg);
+    position: relative;
+    transition: transform .15s linear;
+}
+.pesan {
+    font-size: 1.3rem;
+}
+.closing {
+    font-size: 1.2rem;
+}
+.closing-container::before {
+    content: "❤";
+    margin-right: 8px;
+}
+.closing-container:hover {
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.05);
+    position:relative;
+    z-index: 0.2;
+}
