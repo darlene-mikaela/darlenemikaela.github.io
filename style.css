@@ -9,7 +9,7 @@
         width: 80%; 
         margin: 1em auto; 
     }
-    .closing-container { width: 65%; padding: 1rem; }
+    .closing-container { width: 60%; padding: 1rem; margin: 2rem; }
 }
 body {
     margin: 20px auto;
@@ -142,5 +142,6 @@ p {
     position:relative;
     z-index: 0.2;
 }
+
 
 
