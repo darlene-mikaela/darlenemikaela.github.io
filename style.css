@@ -96,8 +96,8 @@ ul li {
     color: #000;
     background: #e6e0ae;
     display: block;
-    height: 15.5em;
-    width: 15.5em;
+    height: 14em;
+    width: 14em;
     padding: 2em;
     margin: 2em;
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -174,4 +174,5 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
