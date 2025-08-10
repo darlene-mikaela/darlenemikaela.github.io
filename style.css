@@ -6,7 +6,7 @@
         box-sizing: border-box;
     }
     .opening {
-        font-size: 1.2rem;
+        font-size: 30px;
         margin: 0;
         padding: 0.5rem 1rem;
     }
@@ -17,6 +17,11 @@
         margin: 1rem auto;
 /*         width: 60%; */
     }
+    ul li {
+        width: 13em;
+        height: 13em;
+    }
+    p { font-size: 0.8em; }
 }
 body {
     margin: 20px auto;
@@ -147,6 +152,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
