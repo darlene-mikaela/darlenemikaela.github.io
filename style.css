@@ -2,7 +2,7 @@
     .container {
         padding: 1rem;
 /*         width: 60%; */
-        margin: 5%;
+/*         margin-left: 5%; */
         box-sizing: border-box;
     }
     .opening {
@@ -147,6 +147,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
