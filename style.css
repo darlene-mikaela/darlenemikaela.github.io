@@ -28,7 +28,7 @@
 
     .pesan1, .pesan2 {
         padding: 1.5rem 1rem;
-        width: 100%;
+        width: 60%;
         box-sizing: border-box;
     }
 
@@ -42,7 +42,7 @@
         bottom: auto;
         right: auto;
         margin: 1rem auto;
-        width: 100%;
+        width: 60%;
     }
 }
 body {
@@ -96,8 +96,8 @@ ul li {
     color: #000;
     background: #e6e0ae;
     display: block;
-    height: 14em;
-    width: 14em;
+    height: 14.5em;
+    width: 14.5em;
     padding: 2em;
     margin: 2em;
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -174,6 +174,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
