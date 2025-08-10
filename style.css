@@ -1,15 +1,49 @@
 @media (max-width: 768px) {
-    .opening { 
-        font-size: 2rem; 
-        padding: 0 20px;
-        line-height: 1.3;
-        margin-top: 20px;
+    .container {
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
     }
-    ul li { 
-        width: 80%; 
-        margin: 1em auto; 
+
+    .opening {
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0.5rem 1rem;
     }
-    .closing-container { width: 95%; padding: 1rem; }
+
+    ul.closing-container {
+        width: 100%;
+        padding: 0;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.closing-container li {
+        width: 90%;
+        margin: 0.5rem auto;
+        transform: none !important;
+    }
+
+    .pesan1, .pesan2 {
+        padding: 1.5rem 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .pesan1::before, .pesan2::before {
+        top: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .closing {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin: 1rem auto;
+        width: 100%;
+    }
 }
 body {
     margin: 20px auto;
@@ -140,3 +174,4 @@ p {
 p {
     font-size: 1.2rem;
 }
+
