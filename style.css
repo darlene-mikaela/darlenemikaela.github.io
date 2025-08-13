@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
+    body {overflow-x: hidden;}
     .container {
         padding: 1rem;
-        width: 90vw;
+        width: 80vw;
         box-sizing: border-box;
     }
     .opening {
@@ -17,8 +18,8 @@
 /*         width: 60%; */
     }
     ul li {
-        width: 60vw;
-        height: 60vw;
+        width: 50vw;
+        height: 50vw;
 /*         width: 13em;
         height: 13em; */
     }
@@ -153,6 +154,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
