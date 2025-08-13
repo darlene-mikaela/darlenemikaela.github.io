@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
-        width: 90wh;
+        width: 90vw;
         box-sizing: border-box;
     }
     .opening {
@@ -17,8 +17,8 @@
 /*         width: 60%; */
     }
     ul li {
-        width: 60wh;
-        height: 60wh;
+        width: 60vw;
+        height: 60vw;
 /*         width: 13em;
         height: 13em; */
     }
@@ -153,6 +153,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
