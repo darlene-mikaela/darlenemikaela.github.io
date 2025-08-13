@@ -2,13 +2,13 @@
     body {overflow-x: hidden;}
     .container {
         padding: 1rem;
-        width: 80vw;
+        width: 50vw;
         box-sizing: border-box;
     }
     .opening {
         font-size: 30px;
         margin: 0;
-        padding: 0 1rem;
+/*         padding: 0 1rem; */
     }
     .closing {
         position: relative;
@@ -18,8 +18,8 @@
 /*         width: 60%; */
     }
     ul li {
-        width: 50vw;
-        height: 50vw;
+        width: 20vw;
+        height: 20vw;
 /*         width: 13em;
         height: 13em; */
     }
@@ -154,6 +154,7 @@ p {
 p {
     font-size: 1.2rem;
 }
+
 
 
 
